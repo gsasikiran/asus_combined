@@ -1,0 +1,37 @@
+ accuracy = 99.1% (N=1670)
+INFO:tensorflow:=== MISCLASSIFIED TEST IMAGES ===
+INFO:tensorflow:                asus_combined/BEARING_BOX/DISTANCE_TUBE_1527865425.jpg  m30
+INFO:tensorflow:              asus_combined/DISTANCE_TUBE/DISTANCE_TUBE_1527864722.jpg  bearing
+INFO:tensorflow:                asus_combined/DISTANCE_TUBE/BEARING_BOX_1527864907.jpg  bearing box
+INFO:tensorflow:                           asus_combined/F20_20_B/F20_20_B_w_186_1.jpg  s40 40 b
+INFO:tensorflow:              asus_combined/F20_20_B/crop_0_1499774476_augmented_1.jpg  r20
+INFO:tensorflow:                     asus_combined/F20_20_B/BEARING_BOX_1527867084.jpg  distance tube
+INFO:tensorflow:                                 asus_combined/F20_20_B/left0621_0.jpg  r20
+INFO:tensorflow:                         asus_combined/F20_20_G/M20_100_1527866616.jpg  decoy
+INFO:tensorflow:                            asus_combined/F20_20_G/AXIS_1527866778.jpg  s40 40 g
+INFO:tensorflow:                                asus_combined/MOTOR/M20_1527866065.jpg  r20
+INFO:tensorflow:                            asus_combined/MOTOR/M20_100_1527865967.jpg  r20
+INFO:tensorflow:                                    asus_combined/R20/R20_w_2104_1.jpg  motor
+INFO:tensorflow:                              asus_combined/R20/M20_100_1527865817.jpg  m20 100
+INFO:tensorflow:                   asus_combined/R20/crop_0_1499774607_augmented_1.jpg  motor
+INFO:tensorflow:                                asus_combined/R20/MOTOR_1527865764.jpg  m20 100
+Confusion matrix, without normalization
+[[118   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0 134   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0 138   0   0   0   0   0   0   0   0   1   0   0   0   0]
+ [  0   0   0  57   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0  51   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0  16   0   0   0   0   0   0   0   0   0   0]
+ [  0   1   1   0   0   0 180   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   1 151   0   0   0   0   0   2   1   0]
+ [  0   0   0   0   0   1   0   0 122   0   0   0   0   0   0   1]
+ [  0   0   0   0   0   0   0   0   0 138   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0 162   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0  29   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0 133   2   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   2   0   2 136   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0  51   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  39]]
+<matplotlib.figure.Figure at 0x7f243457ae48>
+INFO:tensorflow:Save final result to : /tmp/output_graph.pb
+
