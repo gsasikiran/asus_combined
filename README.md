@@ -31,7 +31,7 @@
 
 ![confusion matrix](https://github.com/gsasikiran/asus_combined/blob/sasi/images/confusion_matrix.jpg)
 
-<b> Most confused (as a list): </b><br>
+<b> Most confused: </b><br>
 
 | Actual | Predicted | Instances |
 |:----------:|:---------------:|:-----------------:|
